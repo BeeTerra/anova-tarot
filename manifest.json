@@ -2,7 +2,7 @@
   "name": "Anova Tarot",
   "short_name": "Anova Tarot",
   "description": "แอพพลิเคชั่นไพ่ยิปซี Rider-Waite Tarot 78 ใบ (10 ตำแหน่ง)",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -17,6 +17,18 @@
       "src": "icon_512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
     }
+  ],
+  "scope": "./",
+  "id": "/anova-tarot/",
+  "display_override": [
+    "standalone",
+    "fullscreen"
   ]
 }
